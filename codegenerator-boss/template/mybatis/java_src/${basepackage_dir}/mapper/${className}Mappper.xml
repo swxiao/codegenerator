@@ -43,7 +43,7 @@
 			${table.pkColumn.sqlName} = <@mapperEl name=table.pkColumn.columnNameFirstLower type=table.pkColumn.sqlTypeName/>
 	</select>
 
-	<select id="queryPage" parameterType="com.houpix.foundation.mybatis.page.Page" resultType="${className}">
+	<select id="queryPage" parameterType="com.bubble.foundation.mybatis.page.Page" resultType="${className}">
 		SELECT
 		    <#list table.columns as column>
 	        ${column.sqlName} <#if column_has_next>,</#if>

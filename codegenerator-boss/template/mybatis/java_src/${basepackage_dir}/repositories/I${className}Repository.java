@@ -5,8 +5,8 @@ package ${basepackage}.repositories;
 
 import ${basepackage}.entities.${className};
 import org.springframework.stereotype.Repository;
-import com.houpix.foundation.mybatis.MybatisRepository;
-import com.houpix.foundation.mybatis.page.Page;
+import com.bubble.foundation.mybatis.MybatisRepository;
+import com.bubble.foundation.mybatis.page.Page;
 
 <#include "/java_imports.include">
 @Repository
