@@ -15,7 +15,7 @@ package com.bubble.generator;
 import cn.org.rapid_framework.generator.GeneratorFacade;
 
 /**
- * @author shiwen.xiao<shiwen.xiao@houpix.com>
+ * @author Vincent xiao<xiaosw@msn.cn>
  * @since 2016年11月1日
  */
 public class MainGenerator {
